@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto&family=Roboto+Slab:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-image: url(https://res.cloudinary.com/practicaldev/image/fetch/s--LEsb8Hva--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/arasur0jjdbqabgl69xr.png);
+    */
+}
+
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+
+::-webkit-scrollbar-track {
+    background-color: rgb(1, 38, 53);
+
+}
+
+
+
+
+.nav-heading {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px 0px 0px 1000px;
+    list-style-type: none;
+
+
+}
+
+button {
+    color: chocolate;
+    border-color: rgb(255, 127, 255);
+    border-radius: 25px;
+    padding: 10px;
+
+
+}
+
+button:hover {
+    color: rgb(255, 127, 255);
+    cursor: pointer;
+}
+
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    padding: 40px;
+
+}
+
+.heading h1 {
+    font-size: 60px;
+    text-align: center;
+    padding: 100px 0px 0px 0px;
+    color: chocolate;
+    margin-bottom: 12%;
+}
+
+
+
+.projects {
+    text-align: center;
+    font-size: 50px;
+    color: chocolate;
+    padding: 35px;
+
+}
+
+.project li {
+    font-size: 44px;
+    align-items: center;
+    padding: 24px;
+    font-weight: 24px;
+    margin-left: 30%;
+    list-style-type: square;
+    color: rgb(5, 235, 5)
+}
+
+
+
+.paragraph h5 {
+    font-size: 28px;
+    text-align: center;
+    margin: 30px;
+    color: rgb(17, 184, 250);
+    word-spacing: 4px;
+}
+
+
+
+
+
+
+.myskills {
+    font-size: 50px;
+    color: chocolate;
+    margin-top: 3%;
+    margin-left: 33%;
+
+}
+
+.icons img {
+    margin-top: 1%;
+    margin-left: 12%;
+    justify-content: flex-start;
+    display: inline;
+
+
+
+}
+
+
+
+.photo {
+    max-width: 350px;
+    float: right;
+    margin-right: 7%;
+    margin-top: 10%;
+}
+
+
+
+
+
+
+
+
+input {
+  font-size: 30px;
+    height: 40px;
+    width: 40%;
+   
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 45%;
+    padding: 25px;
+    
+}
+
+textarea {
+    resize: vertical;
+   
+}
+
+input,textarea {
+    color:rgb(0, 0, 0);
+   border: 1px solid #345;
+   background: none;
+   background-color: white;
+
+}
+
+.message {
+ height: 200px;
+ display: flex;
+  margin-left: 15%;
+  
+}
+
+.lastname {
+margin-left: 12%;
+}
+
+.firstname { 
+ margin-left: 8%;
+}
+
+.number {
+margin-left: 10%; 
+}
+
+.text {
+ margin-left: 15%;
+}
+
+
+.country {
+    margin-left: 15%;
+}
+
+
+
+input:focus,textarea:focus {
+    background: linear-gradient(135deg,#71b7e6, #9b59b6);
+
+
+}
+
+::placeholder {
+    color:rgb(0, 0, 0);
+    opacity: 1;
+}
+
+.sub {
+   border-radius: 20px;
+    margin-left: 60%;
+    margin-top: 35px;
+    margin-bottom: 65px;
+    max-width: 45px;
+    width: 35px;
+    color: linear-gradient(135deg,#71b7e6, #9b59b6);
+   
+   
+}
+
+.submit:hover {
+    cursor: pointer;
+}
